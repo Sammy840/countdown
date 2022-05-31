@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  font: 16/1.5 Trebuchet MS, Ariel;
+  margin: 0;
+  padding: 0;
+}
+
+#hero{
+  background: url('./3d.jpg') no-repeat center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero .header{
+  margin-top: 120px;
+}
+
+.times{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center; 
+}
+
+.times p{
+  font-size: 20px;
+}
+
+.time{
+  background-color: burlywood;
+  margin: 10px;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+}
+
+.num{
+  font-size: 60px;
+}
+
+
+
